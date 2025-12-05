@@ -7,5 +7,6 @@ services:
           - "5678:5678"
         environment:
           - GENERIC_TIMEZONE=Europe/London
+          - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
         volumes:
-          - C:/Users/VAM/Desktop/desktop_all_files/projects/python/n8n/n8n_self_hosted_locally:/home/node/.n8n
+          - <YOUR_PATH_DIRECTORY_TO_THIS_PROJECT>:/home/node/.n8n
