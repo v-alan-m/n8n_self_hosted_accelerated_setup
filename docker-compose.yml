@@ -1,0 +1,11 @@
+services:
+    n8n:
+        image: n8nio/n8n
+        container_name: n8n
+        restart: unless-stopped
+        ports:
+          - "5678:5678"
+        environment:
+          - GENERIC_TIMEZONE=Europe/London
+        volumes:
+          - C:/Users/VAM/Desktop/desktop_all_files/projects/python/n8n/n8n_self_hosted_locally:/home/node/.n8n
