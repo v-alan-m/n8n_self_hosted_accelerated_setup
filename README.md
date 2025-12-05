@@ -1,21 +1,18 @@
 # Start:
-docker compose up -d
+`docker compose up -d`
 
-# Run:
-docker compose up -d
-
-# n8n
+# View n8n
 http://localhost:5678
 
 # Check for running containers
-docker ps -a
+`docker ps -a`
 
 # Stop:
-docker compose down
+`docker compose down`
 
 # Update:
-docker compose pull
-docker compose up -d
+`docker compose pull`
+`docker compose up -d`
 
 # Change password
 - Run the n8n Docker container instance: `docker compose up -d`
