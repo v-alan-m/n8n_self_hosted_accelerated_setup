@@ -1,0 +1,29 @@
+./.venv
+
+# n8n local data
+.n8n/
+database.sqlite
+config
+config.json
+credentials_overwrite.json
+*.log
+
+# Node modules (if your project uses Node.js)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Optional: if you have git workflow exports or backups you don't want in repo
+n8n_projects/
